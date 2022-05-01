@@ -1,0 +1,10 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> go-calendar-practice/pkg/modules/base.AddController.func1 (3 handlers)
+[GIN-debug] GET    /example/                 --> go-calendar-practice/pkg/modules/example.AddController.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :3000
+[TASKAT] 2022/04/25 - 23:44:44 | 200 |            0s |             ::1 | GET      "/"
